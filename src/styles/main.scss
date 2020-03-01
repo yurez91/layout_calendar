@@ -57,7 +57,7 @@ body {
 
   @each $day, $i in $days {
     &-#{$day} div:first-child {
-      margin-left: #{100*$i + 2*$i}px;
+      margin-left: #{100*$i + $i + 1}px;
     }
   }
 
